@@ -1,6 +1,8 @@
 #include "stdafx.h"
 #include <iostream>
 
+using namespace std;
+
 long long fItt(long long n)
 {
 	long long result = 1;
@@ -15,8 +17,6 @@ long long fRec(long long n)
 		return 1;
 	return n*fRec(n - 1);
 }
-
-using namespace std;
 
 int main()
 {

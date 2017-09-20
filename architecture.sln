@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "factorial", "ConsoleApplication1\ConsoleApplication1.vcxproj", "{89290FE7-F4B6-4CC2-92FE-19B13C87BCF9}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MatrixTransposeFile", "MatrixTransposeFile\MatrixTransposeFile.vcxproj", "{1F42B6BF-7E6C-43E3-A047-91C21370300F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fibNums", "MatrixTransposeFile\MatrixTransposeFile.vcxproj", "{1F42B6BF-7E6C-43E3-A047-91C21370300F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

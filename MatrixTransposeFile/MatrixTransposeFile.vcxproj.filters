@@ -29,7 +29,7 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MatrixTransposeFile.cpp">
+    <ClCompile Include="fibNums.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
