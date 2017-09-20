@@ -1,12 +1,21 @@
 #include "stdafx.h"
 #include <iostream>
 #include <string>
+#include <fstream>
+
+
+#define flag true;
 
 using namespace std;
 
 int main()
 {
-	cout << "Enter sequence";
+
+#if flag
+	cout << "Enter sequence" << endl;;
+#else
+	ifstream fin("input.txt");
+#endif
 
 	long sum = 0;
 	int maxmin = INT32_MIN;
@@ -14,7 +23,11 @@ int main()
 	do
 	{
 		string p;
+#if flag
 		cin >> p;
+#else 
+		fin >> p;
+#endif
 		if (p == "*")
 			break;
 
@@ -27,6 +40,11 @@ int main()
 	while (true);
 
 	cout << maxmin << endl << sum << endl;
+
+#if flag
+#else
+	fin.close();
+#endif
 
 	cin.get();
 	cin.get();
