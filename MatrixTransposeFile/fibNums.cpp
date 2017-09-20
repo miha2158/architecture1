@@ -19,8 +19,7 @@ void fibcalc(int* i0, int* i1, int* i2)
 
 int main()
 {
-	
-	cout << "¬ведите значение до которого вычисл€ть" << endl;
+	cout << "Enter maximum element" << endl;
 
 	int max;
 	cin >> max;
@@ -33,8 +32,6 @@ int main()
 		fibcalc(&a, &b, &c);
 	}
 	while (a < max);
-
-	cout << a << endl;
 
 	cin.get();
 	cin.get();

@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "factorial", "ConsoleApplica
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fibNums", "MatrixTransposeFile\MatrixTransposeFile.vcxproj", "{1F42B6BF-7E6C-43E3-A047-91C21370300F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SumEntered", "SumEntered\SumEntered.vcxproj", "{7EB6025D-24D1-4CBB-8985-8D6CD4761B24}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{1F42B6BF-7E6C-43E3-A047-91C21370300F}.Release|x64.Build.0 = Release|x64
 		{1F42B6BF-7E6C-43E3-A047-91C21370300F}.Release|x86.ActiveCfg = Release|Win32
 		{1F42B6BF-7E6C-43E3-A047-91C21370300F}.Release|x86.Build.0 = Release|Win32
+		{7EB6025D-24D1-4CBB-8985-8D6CD4761B24}.Debug|x64.ActiveCfg = Debug|x64
+		{7EB6025D-24D1-4CBB-8985-8D6CD4761B24}.Debug|x64.Build.0 = Debug|x64
+		{7EB6025D-24D1-4CBB-8985-8D6CD4761B24}.Debug|x86.ActiveCfg = Debug|Win32
+		{7EB6025D-24D1-4CBB-8985-8D6CD4761B24}.Debug|x86.Build.0 = Debug|Win32
+		{7EB6025D-24D1-4CBB-8985-8D6CD4761B24}.Release|x64.ActiveCfg = Release|x64
+		{7EB6025D-24D1-4CBB-8985-8D6CD4761B24}.Release|x64.Build.0 = Release|x64
+		{7EB6025D-24D1-4CBB-8985-8D6CD4761B24}.Release|x86.ActiveCfg = Release|Win32
+		{7EB6025D-24D1-4CBB-8985-8D6CD4761B24}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
