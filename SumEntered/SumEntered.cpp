@@ -12,12 +12,13 @@ int main()
 {
 
 #if flag
-	cout << "Enter sequence" << endl;;
+	cout << "Enter sequence" << endl << "* should be the end of it" << endl;
 #else
 	ifstream fin("input.txt");
 #endif
 
 	long sum = 0;
+	long possum = 0;
 	int maxmin = INT32_MIN;
 
 	do
@@ -34,12 +35,16 @@ int main()
 		int num = stoi(p);
 		sum += num;
 		
-		if (num < 0 && num > maxmin)
-			maxmin = num;
+		if (num < 0)
+		{
+			if (num > maxmin)
+				maxmin = num;
+		}
+		else possum += num;
 	}
 	while (true);
 
-	cout << maxmin << endl << sum << endl;
+	cout << endl << maxmin << endl << possum << endl << sum << endl;
 
 #if flag
 #else
@@ -50,4 +55,3 @@ int main()
 	cin.get();
     return 0;
 }
-

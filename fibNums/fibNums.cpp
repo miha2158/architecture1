@@ -28,10 +28,10 @@ int main()
 
 	do
 	{
-		cout << a << " ";
+		cout << c << " ";
 		fibcalc(&a, &b, &c);
 	}
-	while (a < max);
+	while (c <= max);
 
 	cin.get();
 	cin.get();
